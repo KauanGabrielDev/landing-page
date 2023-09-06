@@ -1,0 +1,100 @@
+html {
+  font-family: poppins;
+  font-size: 62.5%;
+  color: #ffffff;
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--body-background);
+  max-width: 1440px;
+  max-height: 900px;
+}
+
+.cabecalho {
+  display: inline-block;
+  margin: 30px 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .imagem {
+  margin-top: 50px;
+}
+
+.container .imagem img {
+  max-width: 100%;
+}
+
+.container .sobre h1 {
+  text-transform: capitalize;
+  font-size: 3.8rem;
+  margin-bottom: 40px;
+}
+
+.container .sobre p {
+  max-width: 560px;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.container .register .register-btn {
+  width: 35%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  transition: 0.3s ease-in-out;
+}
+
+.container .register .register-btn a {
+  transition: 0.3s ease-in-out;
+}
+
+.container .register .register-btn a:hover {
+  color: #ffffff;
+}
+
+.container .register .register-btn:hover {
+  background-color: var(--btn-register);
+}
+
+.rodape {
+  position: relative;
+}
+
+.rodape ul {
+  display: flex;
+  position: absolute;
+  left: 85%;
+  gap: 20px;
+}
+
+.rodape ul li {
+  border: 1px solid;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.rodape ul li:hover {
+  border-color: var(--btn-register);
+}
+
+.rodape ul li a i {
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.rodape ul li a i:hover {
+  color: var(--btn-register);
+}
